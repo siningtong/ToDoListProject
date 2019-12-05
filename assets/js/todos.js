@@ -13,3 +13,6 @@ $("input[type='text']").keypress(function (event) {
     $("ul").append(`<li><span><i class="fas fa-trash-alt"></i></span> ${toDotext}</li>`)
   }
 })
+$('.fa-plus').on('click', function () {
+  $('input').fadeToggle("slow");
+})
